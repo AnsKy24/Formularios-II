@@ -1,0 +1,70 @@
+div{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.eightBits{
+    font-family: 'Silkscreen', cursive;
+    color: rgb(255, 255, 255);
+}
+
+.eightBitsS{
+    font-family: 'Silkscreen', cursive;
+    color: rgb(10, 9, 9);
+}
+
+.send {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Silkscreen', cursive;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.send:hover {
+	background-color:#5cbf2a;
+}
+.send:active {
+	position:relative;
+	top:1px;
+}
+
+.clear {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#f8f8f8;
+    font-family: 'Silkscreen', cursive;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.clear:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.clear:active {
+	position:relative;
+	top:1px;
+}
+
+form{
+    border: pink solid 3px;
+    background-image: url(./Assets/Img/stardew.png);
+}
+
+.wantSize{
+    max-width: 500px;
+    max-height: 500px;
+    border: black solid;
+}
